@@ -31,7 +31,7 @@ $text-color-rgb:           color-to-rgb-list($text-color) !default;
 $text-color-dark:          $white !default;
 $text-color-dark-rgb:      color-to-rgb-list($text-color-dark) !default;
 
-$background-color:          #5db129 !default;
+$background-color:          $white !default;
 $background-color-rgb:      color-to-rgb-list($background-color) !default;
 $background-color-dark:     $gray-900 !default; // #1a1a1a
 $background-color-dark-rgb: color-to-rgb-list($background-color-dark) !default;
@@ -41,7 +41,7 @@ $ion-item-background-rgb:  color-to-rgb-list($ion-item-background) !default;
 $ion-item-background-dark: $gray-900 !default;
 $ion-item-background-dark-rgb: color-to-rgb-list($ion-item-background-dark) !default;
 
-$primary:      #5db129 !default;
+$primary:      $white !default;
 $primary-dark: $brand-color !default;
 $secondary:    #a3ce57 !default;
 $danger:       $red !default;
@@ -111,7 +111,6 @@ $core-login-hide-qrcode: false !default;
 $core-more-hide-siteinfo: false !default;
 $core-more-hide-sitename: false !default;
 $core-more-hide-siteurl: false !default;
-
 // Configuration options for user page.
 $core-user-hide-siteinfo: $core-more-hide-siteinfo !default;
 $core-user-hide-sitename: $core-more-hide-sitename !default;
@@ -160,3 +159,6 @@ $calendar-event-category-colors: (
     user: $calendar-event-category-user,
     site: $calendar-event-category-site,
 ) !default;
+
+
+

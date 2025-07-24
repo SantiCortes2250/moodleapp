@@ -8,6 +8,8 @@
     margin-top: 1.4rem;
 }
 
+
+
 .item ion-thumbnail {
     min-width: 50px;
     min-height: 50px;
@@ -45,6 +47,11 @@
 
 }
 
+.ion-text-uppercase{
+    color: $white;
+
+    }
+
 .core-login-site-logo,
 .core-login-site-list,
 .core-login-site-list-found {
@@ -52,6 +59,9 @@
     opacity: 1;
     transition: all 0.7s ease-in-out;
     max-height: 9999px;
+    background-color: #357a32;
+    border-radius: 50px;
+    margin-bottom: 50px;
 
     &.hidden {
         opacity: 0;

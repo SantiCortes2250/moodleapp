@@ -1,6 +1,7 @@
 @use "theme/globals" as *;
 
 :host {
+
     ion-content,
     ion-list {
         --background: var(--core-login-background);
@@ -24,6 +25,7 @@
     .core-login-reconnect-warning {
         margin: 0px 0px 32px 0px;
     }
+
 
     .core-login-info-box {
         margin-bottom: 32px;
